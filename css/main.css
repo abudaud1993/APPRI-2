@@ -499,7 +499,9 @@ a.btn.price-btn.active {
 }
 .testimonial-area {
   margin-top: 62px;
-  background: #000eff;
+  background: #4337df;
+  /* margin-bottom: 69px; */
+  padding-bottom: 170px;
 }
 .test-titil h2 {
   font-size: 60px;
