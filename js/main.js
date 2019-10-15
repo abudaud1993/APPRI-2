@@ -33,11 +33,13 @@
     asNavFor: ".testimonial-img-active"
   });
   $(".testimonial-img-active").slick({
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: ".testimonial-active",
     dots: false,
     centerMode: true,
-    focusOnSelect: true
+    arrows: false,
+    focusOnSelect: true,
+    centerPadding:'0px'
   });
 })(jQuery);

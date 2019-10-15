@@ -50,12 +50,12 @@ body {
 .pb_40 {
   padding-bottom: 40px;
 }
-.mt_30{
-  margin-top:30px;
+.mt_30 {
+  margin-top: 30px;
 }
 
 .text-conter {
-    text-align: center;
+  text-align: center;
 }
 
 h1,
@@ -219,34 +219,32 @@ h6 {
 }
 
 .slider-img {
-	
   margin: 190px 0px 0px 0px;
 }
 
-.abbs{
-	position: relative;
-
+.abbs {
+  position: relative;
 }
 img.shape.shape-4 {
-    bottom: 200px;
-    right: -230px;
+  bottom: 200px;
+  right: -230px;
 }
 img.shape.shape-3 {
-    top: 130px;
-    left: -92px;
+  top: 130px;
+  left: -92px;
 }
 .single-fact {
   width: 156px;
 }
 .single-fact h2 {
-    font-size: 48px;
-    color: #7a40f2;
+  font-size: 48px;
+  color: #7a40f2;
 }
 span.span-text {
-    font-size: 16px;
-    line-height: 30px;
-    color: #8d8f97;
-    /* width: 120px; */
+  font-size: 16px;
+  line-height: 30px;
+  color: #8d8f97;
+  /* width: 120px; */
 }
 
 .single-fact {
@@ -262,19 +260,12 @@ span.span-text {
   right: -69px;
 }
 .fact-paren .col-xl-3:last-child.single-fact::after {
-
   display: none;
-
 }
-
-
-
 
 section.fact-sction {
   margin-top: -200px;
 }
-
-
 
 .content-1 {
   margin-top: 100px;
@@ -288,7 +279,6 @@ section.fact-sction {
 .content-1 p {
   font-size: 22px;
   margin-top: 20px;
-
 }
 
 section.features-area {
@@ -315,13 +305,12 @@ img.shape-6 {
 }
 
 svg.svg-inline--fa.fa-google-play.fa-w-16 {
-  
-    font-size: 119px;
-    margin-top: 15px;
-    color: #ffffff;
-    background: #0014ff;
-    border-radius: 404px;
-    padding: 40px;
+  font-size: 119px;
+  margin-top: 15px;
+  color: #ffffff;
+  background: #0014ff;
+  border-radius: 404px;
+  padding: 40px;
 }
 .vedio-bg {
   min-height: 723px;
@@ -329,7 +318,7 @@ svg.svg-inline--fa.fa-google-play.fa-w-16 {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.position-1{
+.position-1 {
   position: absolute;
   top: -511px;
   right: 412px;
@@ -412,7 +401,7 @@ section.price-area {
   margin-top: 110px;
   margin-bottom: -330px;
 }
-.price-nav{
+.price-nav {
   display: inline-block;
   border: 2px solid #ece7e7;
   border-radius: 40px;
@@ -421,39 +410,49 @@ section.price-area {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
 }
-.price-nav li{
+.price-nav li {
   display: inline-block;
 }
-.price-nav li a{}
-.my-content{
+.price-nav li a {
+}
+.my-content {
   margin: 50px 0px 0px 50px;
-
 }
 .price-nav li a {
   padding: 20px 40px;
   font-size: 23px;
   line-height: 1;
-  border-radius: 30px 0px 0px 30px  ;
-  -webkit-border-radius: 30px 0px 0px 30px  ;
-  -moz-border-radius: 30px 0px 0px 30px  ;
-  -ms-border-radius: 30px 0px 0px 30px  ;
-  -o-border-radius: 30px 0px 0px 30px  ;
+  border-radius: 30px 0px 0px 30px;
+  -webkit-border-radius: 30px 0px 0px 30px;
+  -moz-border-radius: 30px 0px 0px 30px;
+  -ms-border-radius: 30px 0px 0px 30px;
+  -o-border-radius: 30px 0px 0px 30px;
   color: #9e9393;
 }
-.price-nav li a.active{
- 
-  background-image: -moz-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -webkit-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -ms-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
+.price-nav li a.active {
+  background-image: -moz-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
   color: #ffffff;
-  
 }
-.price-nav li:nth-child(2) a{
-  border-radius: 0px 30px 30px 0px  ;
-  -webkit-border-radius: 0px 30px 30px 0px  ;
-  -moz-border-radius: 0px 30px 30px 0px  ;
-  -ms-border-radius: 0px 30px 30px 0px  ;
-  -o-border-radius: 0px 30px 30px 0px  ;
+.price-nav li:nth-child(2) a {
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  -moz-border-radius: 0px 30px 30px 0px;
+  -ms-border-radius: 0px 30px 30px 0px;
+  -o-border-radius: 0px 30px 30px 0px;
 }
 a.btn.price-btn {
   font-size: 21px;
@@ -463,16 +462,39 @@ a.btn.price-btn {
   color: #272223;
 }
 a.btn.price-btn.active {
-  background-image: -moz-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -webkit-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -ms-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
+  background-image: -moz-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
   color: #ffffff;
-
 }
 .price-button:hover a {
-  background-image: -moz-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -webkit-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
-  background-image: -ms-linear-gradient( 178deg, rgb(255,153,165) 0%, rgb(255,96,163) 100%);
+  background-image: -moz-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
+  background-image: -ms-linear-gradient(
+    178deg,
+    rgb(255, 153, 165) 0%,
+    rgb(255, 96, 163) 100%
+  );
   color: #ffffff;
 }
 .testimonial-area {
@@ -488,7 +510,7 @@ a.btn.price-btn.active {
   line-height: 1.52;
   color: #fff;
 }
-.testimonial-active span{
+.testimonial-active span {
   font-size: 18px;
   line-height: 1.52;
   color: #fff;
@@ -497,11 +519,36 @@ a.btn.price-btn.active {
 .test-titil {
   margin-top: 400px;
 }
-.testimonial-img-active img {
-  width: auto !important;
-  display: block;
+/* .testimonial-img-active img {
+  margin: 30px 18px;
+} */
+.testimonial-img-active {
+  /* margin: 30px 18px; */
+  margin-top: 38px;
 }
+.testimonial-img-active {
+}
+.test-item{
+  position: relative;
+}
+.test-item::before {
+  background: #000;
+  height: 100%;
+  width: 72%;
+  position: absolute;
+  content: "";
+  left: 1px;
+  border-radius: 78px;
+  opacity: .5;
+}
+.test-item.slick-center::before {
 
+  opacity: 0;
+  -webkit-border-radius: 78px;
+  -moz-border-radius: 78px;
+  -ms-border-radius: 78px;
+  -o-border-radius: 78px;
+}
 /* 4. about_area_css */
 /* 5. features_box_css */
 /* 6. deportment_css */
