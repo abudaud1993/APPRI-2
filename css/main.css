@@ -352,7 +352,7 @@ svg.svg-inline--fa.fa-google-play.fa-w-16 {
   line-height: 48px;
 }
 section.text-area-2 {
-  margin-top: 100px;
+  margin: 100px 0px 120px 0px;
 }
 
 .price-shape {
@@ -554,6 +554,115 @@ a.btn.price-btn.active {
   -moz-border-radius: 78px;
   -ms-border-radius: 78px;
   -o-border-radius: 78px;
+}
+.card {
+  margin: 0px 0px 17px 0px;
+}
+.pd-reight {
+  left: -60px;
+}
+.card-header h2 {
+  cursor: pointer;
+  color: #fff;
+}
+.card {
+  background: #fff;
+  border-radius: 20px;
+}
+.card-header h2 a {
+  font-size: 18px;
+  padding: 18px 30px;
+  display: block;
+  /* background: #3847; */
+}
+section.text-area-3 {
+  margin: 0px 0px 50px 0px;
+}
+
+.card-header {
+  background-image: -moz-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+  background-image: -webkit-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+  background-image: -ms-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+}
+
+
+.item-content h3 {
+  max-width: 613px;
+  font-size: 34px;
+  line-height: 46px;
+  font-weight: 600;
+}
+.item.selder-opacity img {
+  opacity: .40;
+}
+
+section.item-area-slider {
+  margin: 0px 0px 150px 0px;
+}
+.latest-news h2 {
+  font-size: 48px;
+}
+section.latest-news-area {
+  margin: 0px 0px 50px 0px;
+}
+.blog-post-img {
+  position: relative;
+}
+.blog-post-text {
+  position: absolute;
+  top: 147px;
+  padding: 50px;
+}
+.bg-color {
+  background: #fff;
+  box-shadow: 0px 0px 79px 0px rgba(0, 0, 0, 0.027);
+  padding: 10px;
+}
+.bg-color h4 {
+  padding: 22px;
+  font-size: 18px;
+}
+.bg-color span {
+  margin: 0px 15px 0px 24px;
+}
+section.blog-post {
+  margin-bottom: 281px;
+}
+.bag {
+  padding: 70px;
+  background-image: -moz-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+  background-image: -webkit-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+  background-image: -ms-linear-gradient( -51deg, rgb(47,50,212) 0%, rgb(113,66,247) 100%);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.subscript-title h4 {
+  font-size: 37px;
+  color: #FBA;
+  padding: 0px;
+}
+form input {
+  padding: 40px 561px 30px 30px;
+  border-radius: 50px;
+  position: relative;
+}
+form button {
+  position: absolute;
+  top: 7px;
+  right: -13px;
+}
+section.subscript-area {
+    margin-bottom: 80px;
+}
+section.now-available-area.text-center {
+  margin-bottom: 40px;
+}
+section.now-available-area h1 {
+  font-size: 60px;
+  color: #38363d;
 }
 /* 4. about_area_css */
 /* 5. features_box_css */

@@ -1,0 +1,2 @@
+[Mon Oct 21 2019 20:01:27 GMT+0600 (Central Asia Standard Time)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Oct 21 2019 20:01:27 GMT+0600 (Central Asia Standard Time)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
