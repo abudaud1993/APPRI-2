@@ -530,6 +530,10 @@ a.btn.price-btn.active {
 }
 .testimonial-img-active {
 }
+.slick-slide img {
+  /* display: block; */
+  display: inline-block;
+}
 .test-item{
   position: relative;
 }
@@ -539,7 +543,7 @@ a.btn.price-btn.active {
   width: 72%;
   position: absolute;
   content: "";
-  left: 1px;
+  left: 21px;
   border-radius: 78px;
   opacity: .5;
 }
