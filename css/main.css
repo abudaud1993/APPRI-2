@@ -30,7 +30,10 @@ body {
   color: #909299;
   background: #fefefe;
 }
-.img {
+.container{
+  border: 2px solid red;
+}
+img {
   max-width: 100%;
   transition: all 0.3s ease-out 0s;
 }
@@ -165,6 +168,10 @@ h6 {
   top: 200px;
   left: -210px;
 }
+.main-img {
+	width: 440px;
+	height: 920px;
+}
 .shape-2 {
   bottom: 230px;
   right: 10px;
@@ -181,7 +188,7 @@ h6 {
 .slider-text p {
   font-size: 24px;
   color: #fff;
-  line-height: 36px;
+  line-height:1.5;
 }
 .slider-btn a {
   margin-top: 30px;
@@ -220,6 +227,7 @@ h6 {
 
 .slider-img {
   margin: 190px 0px 0px 0px;
+  right: -124px;
 }
 
 .abbs {
@@ -230,8 +238,8 @@ img.shape.shape-4 {
   right: -230px;
 }
 img.shape.shape-3 {
-  top: 130px;
-  left: -92px;
+	top: 88px;
+	left: -120px;
 }
 .single-fact {
   width: 156px;
@@ -251,13 +259,13 @@ span.span-text {
   position: relative;
 }
 .single-fact::after {
-  background: #c6c7cb;
-  height: 70px;
-  width: 2px;
-  content: "";
-  position: absolute;
-  top: 37px;
-  right: -69px;
+	background: #c6c7cb;
+	height: 70px;
+	width: 2px;
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: -69px;
 }
 .fact-paren .col-xl-3:last-child.single-fact::after {
   display: none;
@@ -329,7 +337,7 @@ svg.svg-inline--fa.fa-google-play.fa-w-16 {
   line-height: 60px;
 }
 .text-content p {
-  padding: 0px 730px;
+	padding: 0px 347px;
 }
 .post-1 {
   margin-top: 108px;
