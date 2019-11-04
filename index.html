@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/fontawesome.all.min.css">
   <link rel="stylesheet" href="css/jdb_popup.min.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/meanmenu.min.css">
+  <link rel="stylesheet" href="css/scrollbar-color.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/responsive.css" />
@@ -25,18 +27,18 @@
     <header class="header_area transparent_menu">
       <div class="container">
         <div class="row">
-          <div class="col-xl-2 col-lg-2 d-flex align-self-center">
+          <div class="col-xl-2 col-lg-2 col-md-2 d-flex align-self-center">
             <div class="logo">
               <a href="#"><img src="img/logo/logo-1.png" alt="" /></a>
             </div>
           </div>
 
-          <div class="col-xl-10 col-lg-10">
-            <div class="header_btn f_right">
+          <div class="col-xl-10 col-lg-10 col-md-10">
+            <div class="header_btn f_right d-none d-lg-block">
               <a href="#" class="btn">SIGN IN</a>
             </div>
             <div class="main_menu f_right">
-              <nav>
+              <nav id="mobile-menu">
                 <ul>
                   <li><a href="#">Home </a></li>
                   <li>
@@ -97,6 +99,7 @@
                 </ul>
               </nav>
             </div>
+            <div class="mobil-menu"></div>
           </div>
         </div>
       </div>
@@ -109,7 +112,7 @@
     <section class="slider-area slider-height d-flex" data-background="img/background-img/header-backgrind.png">
       <div class="container">
         <div class="row">
-          <div class="col-xl-7 col-lg-7">
+          <div class="col-xl-7 col-lg-9 ">
             <div class="shape-img">
               <img class="shape-1 shape" src="img/shape/shape01.png" alt="" />
               <img class="shape-2 shape" src="img/shape/shape02.png" alt="" />
@@ -127,7 +130,7 @@
             </div>
           </div>
 
-          <div class="col-xl-5 col-lg-5">
+          <div class="col-xl-5 d-none d-xl-block">
             <div class="slider-img abbs">
               <img class="shape shape-3" src="img/shape/shape03.png" alt="" />
               <img class="shape shape-4" src="img/shape/shape04.png" alt="" />
@@ -141,21 +144,21 @@
     <section class="fact-sction">
       <div class="container">
         <div class="row">
-          <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2  ">
+          <div class="col-xl-8 offset-xl-2 col-lg-8  offset-lg-2   ">
             <div class="row fact-paren justify-content-around">
-              <div class="col-xl-3 col-lg-3 ">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-12">
                 <div class="single-fact  text-conter">
                   <h2 class="counter">40,790</h2>
                   <span class="span-text">Download App</span>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-3">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-12">
                 <div class="single-fact text-conter">
                   <h2><span class="counter">10,900</span><span>+</span></h2>
                   <span class="span-text">Active Users</span>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-3">
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-12">
                 <div class="single-fact text-conter">
                   <h2><span class="counter">790</span><span>+</span></h2>
                   <span class="span-text">Positive Reviews</span>
@@ -197,7 +200,7 @@
     <section class="features-area">
       <div class="container">
         <div class="row ">
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4">
             <div class="single-features text-center">
               <div class="features-icon">
                 <img src="img/icone/f-icon-1.png" alt="">
@@ -210,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4">
             <div class="single-features text-center">
               <div class="features-icon">
                 <img src="img/icone/f-icon-2.png" alt="">
@@ -221,7 +224,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4">
             <div class="single-features text-center">
               <div class="features-icon">
                 <img src="img/icone/f-icon-3.png" alt="">
@@ -366,7 +369,7 @@
             <div class="tab-content my-content" id="myTabContent">
               <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -388,7 +391,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -410,7 +413,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -436,7 +439,7 @@
               </div>
               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="row">
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -458,7 +461,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -480,7 +483,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="price-shape">
                       <div class="price-titel">
                         <h4>Primary</h4>
@@ -691,7 +694,7 @@
     <section class="text-area-3">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-6 ">
+          <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 ">
             <div class="text-content text-center item-content">
               <h3>Trusted by thousands of people and companies worldwide</h3>
             </div>
@@ -732,7 +735,7 @@
     <section class="blog-post">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div class="blog-post-img">
               <img src="img/blog-img/blog-img.jpg" alt="">
             </div>
@@ -743,7 +746,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div class="blog-post-img">
               <img src="img/blog-img/blog-img.jpg" alt="">
             </div>
@@ -754,7 +757,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4">
+          <div class="col-xl-4 col-lg-4 col-md-4  col-sm-12">
             <div class="blog-post-img">
               <img src="img/blog-img/blog-img.jpg" alt="">
             </div>
@@ -774,12 +777,12 @@
       <div class="container">
         <div class="bag">
           <div class="row">
-              <div class="col-xl-3 col-lg-3">
+              <div class="col-xl-3 col-lg-3 col-md-12">
                 <div class="subscript-title">
                   <h4>Subscribe Newsletter</h4>
                 </div>
               </div>
-              <div class="col-xl-9 col-lg-9">
+              <div class="col-xl-9 col-lg-9 col-md-12">
                 <form action="">
                   <input type="email" name="" id="" placeholder="E-mail">
                   <button class="btn">SUBSCRIPT NOW</button>
@@ -809,13 +812,13 @@
 <section class="">
   <div class="container">
     <div class="row d-flex justify-content-center">
-      <div class="col-xl-3 col-lg-3">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
         <div class="">
           <img src="img/i-con-now/APPRI.png" alt="">
 
         </div>
       </div>
-      <div class="col-xl-3 col-lg-3">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
           <div class="">
             <img src="img/i-con-now/APPRI=1-.png" alt="">
             
@@ -846,6 +849,7 @@
   <script src="js/fontawesome.all.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jdb_popup.min.js"></script>
 
