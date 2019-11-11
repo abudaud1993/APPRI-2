@@ -3,12 +3,8 @@
   
   
   $('#mobile-menu').meanmenu({
-    meanMenuContainer: '.mobile-menu',
-    meanScreenWidth: "991",
-    meanMenuClose: "X",
-    meanMenuCloseSize: "18px",
-   
-
+    meanMenuContainer: ".mobile-menu",
+    meanScreenWidth: "768",
   });
   
   

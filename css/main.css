@@ -681,6 +681,15 @@ section.now-available-area h1 {
   font-size: 60px;
   color: #38363d;
 }
+
+
+.mean-container .mean-bar {
+  background: transparent;
+}
+a.meanmenu-reveal {
+  border: 1px solid #fff;
+  margin-top: 1px;
+}
 /* 4. about_area_css */
 /* 5. features_box_css */
 /* 6. deportment_css */
